@@ -15,3 +15,19 @@ The responsibilities of a BA and a PO sound quite similar. What’s the differen
 The critical difference is that a product owner provides the vision of a product without diving deep into how it is technically implemented, while a business analyst bridges the gap between a customer and a team, being a bit more on the technical side. So, a PO is more customer-oriented, while a BA is often more focused on the technicalities of the project. Professional business analysts are usually qualified to take over some of a product owner’s tasks, like managing the product backlog and modeling workflows, among other responsibilities.
 
 In outsourcing scenarios, a product owner can be someone from the client’s side, a startup founder, for example. They possess deep domain expertise but might lack technical knowledge. They can work in tandem with business analysts to fine-tune product requirements.
+
+# Technology Stack
+1. Django
+Purpose: Django is a high-level Python web framework used for building web applications rapidly.
+
+In a project: It helps developers build RESTful APIs or full-stack web apps, handling everything from URL routing to database models and user authentication.
+
+2. PostgreSQL
+Purpose: PostgreSQL is an open-source relational database management system (RDBMS).
+
+In a project: It stores and manages structured data (like user records, sensor data, logs), and integrates well with Django via libraries like psycopg2.
+
+3. GraphQL
+Purpose: GraphQL is a query language for APIs and a runtime for executing those queries.
+
+In a project: It allows clients (like front-end apps) to fetch only the data they need, making APIs faster and more flexible compared to traditional REST APIs.
